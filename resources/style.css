@@ -1,3 +1,4 @@
+/*Header section*/
 header{
   font-family: Verdana;
     font-size: 14px;
@@ -75,4 +76,68 @@ a{
   text-decoration-line: underline;
   text-decoration-style: solid;
   width: auto;
+}
+
+/*content section*/
+
+.content{
+  display:flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div{
+  border: 1px solid black;
+  display:block;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.column{
+  display:flex;
+  flex-direction:column;
+  margin-right: 32px;
+}
+
+span{
+  display:inline;
+  height:auto;
+  width:auto;
+}
+
+p{
+  display:block;
+  webkit-margin-before:1em;
+  webkit-margin-after:1em;
+  webkit-margin-start:0px;
+  webkit-margin-end:0px;
+}
+
+h2{
+  display:block;
+  font-size: 1.5em;
+  font-weight:bold;
+}
+.column.medium {
+  width: 300px;
+  display:flex;
+  flex-direction: column;
+  height:580.278px;
+  margin-right:32px;
+
+}
+
+.column.small {
+  width: 240px;
+  display:flex;
+  flex-direction: column;
+  height:580.278px;
+  margin-right:32px;
+
 }
