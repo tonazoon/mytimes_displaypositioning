@@ -50,14 +50,6 @@ header nav{
   width:269.59px;
 }
 
-span{
-  display: block;
-  font-family: verdana;
-  font-size:14px;
-  font-weight: 700;
-  height:17.3333px;
-  width: 73.9167px;
-}
 
 nav span{
   display:inline-block;
@@ -140,4 +132,43 @@ h2{
   height:580.278px;
   margin-right:32px;
 
+}
+
+/*style section*/
+
+.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+  height:300px;
+  text-align:center;
+}
+
+.lead-story.image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width:630px;
+  margin-top:0;
+  text-align: left;
+  font-size: 40px
+}
+
+.fall-cancelled.image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.pop-culture.image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+
+}
+
+.cat-ceo.image-content{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
 }
